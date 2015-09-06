@@ -1,0 +1,79 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.ul_contacts {
+		text-align: center;
+		padding-top: 0;
+	}
+	.content_contacts {
+		padding-top: 0;
+	}
+	.form_contacts {
+		margin-top: 0;
+	}
+	.content_body {
+		margin-top: 0px;
+	}
+	.form_contacts form {
+		padding: 5%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 655px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.container_cut_50.container {
+	    width: 720px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.container_cut_50.container {
+	    width: 920px;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.container_cut_50.container {
+	    width: 1120px;
+	}
+}
